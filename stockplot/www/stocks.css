@@ -1,0 +1,205 @@
+/*!
+ * Ext JS Library 3.0.0
+ * Copyright(c) 2006-2009 Ext JS, LLC
+ * licensing@extjs.com
+ * http://www.extjs.com/license
+ */
+body {
+    font-family:'lucida grande',tahoma,arial,sans-serif;
+    font-size:11px;
+}
+a {
+    color:#15428B;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#header {
+    background: #7F99BE url(images/layout-browser-hd-bg.gif) repeat-x center;
+}
+#header h1 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: normal;
+    padding: 5px 10px;
+}
+.start-div h2 {
+    font-size: 12px;
+    color: #555;
+    padding-bottom:5px;
+    border-bottom:1px solid #C3D0DF;
+}
+.start-div p {
+    margin: 10px 0;
+}
+
+.start-div{
+	margin: 30px 30px 30px 30px;
+}
+#details-panel h2 {
+    padding:10px 10px 0;
+    font-size:12px;
+    color:#15428B;
+}
+#details-panel p {
+    padding:10px 10px 0;
+}
+#details-panel pre {
+    border-top:1px dotted #ddd;
+    border-bottom:1px dotted #ddd;
+    margin-top:10px;
+    padding:0 5px;
+    background:#f5f5f5;
+}
+#details-panel .details-info {
+    margin:5px;
+    padding:5px;
+    border:1px dotted #999;
+    color:#555;
+    background: #f9f9f9;
+}
+.x-tab-panel-header-plain .x-tab-strip-top {
+    background: #DFE8F6 url(../images/default/tabs/tab-strip-bg.gif) repeat-x scroll center bottom !important;
+}
+.custom-accordion .x-panel-body {
+    font-family:georgia,serif;
+    padding:20px 80px !important;
+    background:#ffe;
+    font-size:18px;
+    text-align:center;
+    color:#15428B;
+}
+.custom-accordion .x-panel-header-text {
+    font-weight:bold;
+    font-style:italic;
+    color:#555;
+}
+#form-panel .x-panel-footer {
+    background:#DFE8F6;
+    border-color:#99BBE8;
+    border-style:none solid solid;
+    border-width:0pt 1px 1px;
+}
+#table-panel .x-table-layout {
+    padding:5px;
+}
+#table-panel .x-table-layout td {
+    vertical-align:top;
+    padding:5px;
+    font-size: 11px;
+}
+.icon-send {
+    background-image:url(images/email_go.png) !important;
+}
+.icon-save {
+    background-image:url(images/disk.png) !important;
+}
+.icon-print {
+    background-image:url(images/printer.png) !important;
+}
+.icon-spell {
+    background-image:url(images/spellcheck.png) !important;
+}
+.icon-attach {
+    background-image:url(images/page_attach.png) !important;
+}
+.email-form .x-panel-mc .x-panel-tbar .x-toolbar {
+    border-top:1px solid #C2D6EF;
+    border-left:1px solid #C2D6EF;
+    border-bottom:1px solid #99BBE8;
+    margin:-5px -4px 0;
+}
+.inner-tab-custom .x-border-layout-ct {
+    background: #fff;
+}
+.pdf16 {
+    background-image: url(images/pdf16.png) !important;
+}
+.add16 {
+    background-image: url(images/add16.gif) !important;
+}
+
+.new-tab {
+    background-image:url(images/image_add.png) !important;
+}
+
+.tabs {
+    background-image:url(images/tabs.gif ) !important;
+}
+.chartIcon {
+    background-image:url(images/chart.gif ) !important;
+}
+.resetIcon {
+    background-image:url(images/refresh.gif ) !important;
+}
+
+.stocksGraph{
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.nodeOverDragzone{
+	border: 1px dashed #FF0000;
+}
+
+.copyWorkspaceIcon {
+    background-image:url(images/new_window.gif ) !important;
+}
+
+.switchWorkspaceIcon {
+    background-image:url(images/new_tab.gif ) !important;
+}
+
+.refresh2 {
+    background-image:url(images/refresh2.gif ) !important;
+}
+
+.calendarIcon {
+    background-image:url(images/calendar.gif ) !important;
+}
+
+.downArrow {
+	background-image:url(images/arrow-down.gif ) !important;
+}
+
+.errorImage {
+	border: 2px solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu-title{
+    background: #D6E3F2;
+    border-style: solid;
+    border-color:#DAE6F4 #99bbe8 #99bbe8 #DAE6F4;
+    border-width: 1px;
+    margin:-2px -2px 0;
+    color:#15428b;
+    font:bold 10px tahoma,arial,verdana,sans-serif;
+    display:block;
+    padding:3px;
+}
+#copyright{
+
+	float:right;
+	margin: -20px 20 0 0;
+	color: #fff; 
+	font-size: 10px;
+	font-weight:bold;
+}
+
+#copyright a{
+	color: #fff;
+}
+#demovideo{
+
+	color: red;
+	margin: 25 0 0 0px;
+	font-weight:bold;
+	
+
+}

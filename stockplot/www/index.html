@@ -1,0 +1,64 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Stockplot web application</title>
+
+    <!-- ** CSS ** -->
+    <!-- base library -->
+    <link rel="stylesheet" type="text/css" href="../ext-3.2.0/resources/css/ext-all.css" />
+    <link rel="stylesheet" type="text/css" href="stocks.css">
+
+    <script type="text/javascript" src="../ext-3.2.0/adapter/ext/ext-base.js"></script>
+    <script type="text/javascript" src="../ext-3.2.0/ext-all.js"></script>
+	<script type="text/javascript" src="../jsdeployr/includes/sha1.js"></script> 
+	<script type="text/javascript" src="../jsdeployr/JSDeployR.js"></script> 
+	<script type="text/javascript" src="stocks.js"></script>
+
+</head>
+<body>
+    <div id="header"><h1>Stockplot</h1> <div id="copyright"><a href="http://www.jeroenooms.com/stockplot.html" target="_blank">about/help</a></div></div>
+
+    <div style="display:none;">
+
+        <!-- Start page content -->
+        <div id="start-div">
+            <div style="float:left;" ><img src="images/layout-icon.gif" /></div>
+            <div style="margin-left:100px;">
+
+
+                <p>Double click a company from the menu to the left to open a window.</p>
+				<p>To compare graphs you can drag and drop them into the workspace window </p>
+				<p>Press F11 to use this application in Full Screen</p>
+				
+
+				
+            </div>
+        </div>
+
+        <!-- Basic layouts -->
+        <div id="company-details" >
+            <h2 id="detailsHeader">Graph information</h2>
+            <div id="detailsContent">
+			<!--<p>Some additional information about the graph can be placed here.</p>-->
+			</div>
+
+             <p><b>Links:</b></p>
+			
+			<p><a id="yahooLink" href="http://finance.yahoo.com/" target="_blank">Yahoo finance</a></p>
+			<p><a id="wikiLink" href="http://en.wikipedia.org/" target="_blank">Wikipedia</a></p>
+
+		</div>
+    </div>
+	
+<script type="text/javascript"> 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+<script type="text/javascript"> 
+try {
+var pageTracker = _gat._getTracker("UA-701288-5");
+pageTracker._trackPageview();
+} catch(err) {}</script> 
+
+</body>
+</html>
